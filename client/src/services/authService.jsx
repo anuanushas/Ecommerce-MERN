@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = "http://localhost:8000";
+const API = "https://ecommerce-mern-d6nt.onrender.com";
 
 const createRegister = async (data) => {
   return await axios.post(`${API}/api/users/register`, data);
