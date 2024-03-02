@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const corsOptions = {
-    origin: 'https://ecommerce-mern-coral.vercel.app/', // Replace this with the requesting origin or a function to dynamically set it
+    origin: 'https://ecommerce-mern-coral.vercel.app', // Replace this with the requesting origin or a function to dynamically set it
     credentials: true, // To allow cookies and HTTP authentication
 };
 
